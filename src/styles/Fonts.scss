@@ -21,6 +21,10 @@ span {
         background-color: $color-primary;
         display: inline-block;
         padding: 0 1rem;
+
+        &--secondary {
+            background-color: $color-secondary;
+        }
     }
 }
 

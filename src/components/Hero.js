@@ -21,7 +21,7 @@ const Hero = () => {
                                 <Fade cascade>
                                     <h1 className="text--title"><span className='lighted'>#seamosjustos</span></h1>
                                     <h2 className="text--subtitle">Podemos <span className='lighted'>Mover a Chiapas</span></h2>
-                                    <h3 className='text--slogan'><span className='lighted'>Lic. Justo Tomás Hernández</span></h3>
+                                    <h3 className='text--slogan'><span className='lighted lighted--secondary'>Lic. Justo Tomás Hernández</span></h3>
                                 </Fade>
                             </div>
                         </div>
