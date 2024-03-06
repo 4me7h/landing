@@ -27,9 +27,9 @@ export default function About() {
                 </p>
               </div>
               <div className="about__images-grid">
-                <img className="about__images-grid__item" alt="image" src={image02}/>
-                <img className="about__images-grid__item" alt="image1" src={image03}/>
-                <img className="about__images-grid__item" alt="image2" src={image04}/>
+                <img className="about__images-grid__item" alt="justo" src={image02}/>
+                <img className="about__images-grid__item" alt="justo" src={image03}/>
+                <img className="about__images-grid__item" alt="justo" src={image04}/>
               </div>
               <div className="about__content">
                 <p className="text--body">
@@ -40,9 +40,9 @@ export default function About() {
                 </p>
               </div>  
               <div className="about__images-grid">
-                <img className="about__images-grid__item" alt="image" src={image05}/>
-                <img className="about__images-grid__item" alt="image1" src={image06}/>
-                <img className="about__images-grid__item" alt="image2" src={image07}/>
+                <img className="about__images-grid__item" alt="justo" src={image05}/>
+                <img className="about__images-grid__item" alt="justo" src={image06}/>
+                <img className="about__images-grid__item" alt="justo" src={image07}/>
               </div>
               <div className="about__content">
                 <p className="text--body">
