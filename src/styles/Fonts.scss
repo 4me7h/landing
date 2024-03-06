@@ -18,17 +18,19 @@ a {
 
 span {
     &.lighted {
-        background-color: $color-secondary;
+        background-color: $color-primary;
+        display: inline-block;
+        padding: 0 1rem;
     }
 }
 
 //sizes 
 $fs-sm: 18px;
-$fs-md: 29px;
-$fs-lg: 47px;
-$fs-xl: 76px;
-$fs-bg: 123px;
-$fs-xb: 199px;
+$fs-md: 24px;
+$fs-lg: 32px;
+$fs-xl: 40px;
+$fs-bg: 48px;
+$fs-xb: 56px;
 
 //weights
 $fw-4: 400;
@@ -42,9 +44,9 @@ $fw-8: 800;
     &--title {
         font-size: $fs-lg;
         text-transform: uppercase;
-        letter-spacing: 1rem;
-        margin-bottom: 2rem;
-        font-weight: $fw-4;
+        letter-spacing: 0.25rem;
+        margin-bottom: 1rem;
+        font-weight: $fw-6;
         @include media('xs') {
             font-size: $fs-bg;
         }
@@ -57,7 +59,7 @@ $fw-8: 800;
         font-size: $fs-sm;
         letter-spacing: .20rem;
         line-height: 1.3;
-        font-weight: $fw-4;
+        font-weight: $fw-5;
         @include media ('xs') {
             font-size: $fs-lg;
         }
@@ -70,7 +72,8 @@ $fw-8: 800;
         font-size: $fs-lg;
         letter-spacing: .20rem;
         line-height: 1.3;
-        font-weight: $fw-4;
+        font-weight: $fw-5;
+        margin-bottom: 1rem;
         @include media('xs') {
             font-size: $fs-lg;
         }

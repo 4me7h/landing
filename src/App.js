@@ -16,13 +16,15 @@ function App() {
       <Element name="hero">
         <Hero />
       </Element>
-      <Element name="about">
+      {/* <Element name="about">
         <About />
       </Element>
       <Element name="services">
         <Services />
       </Element>
-      <Team />
+      <Element name="team">
+        <Team />
+      </Element> */}
       <Element name="contact">
         <Contact />
       </Element>
