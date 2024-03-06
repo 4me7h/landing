@@ -46,13 +46,13 @@ $fw-8: 800;
 //text
 .text {
     &--title {
-        font-size: $fs-lg;
+        font-size: $fs-md;
         text-transform: uppercase;
         letter-spacing: 0.25rem;
         margin-bottom: 1rem;
         font-weight: $fw-6;
         @include media('xs') {
-            font-size: $fs-bg;
+            font-size: $fs-xl;
         }
         @include media('md') {
             font-size: $fs-xb;
