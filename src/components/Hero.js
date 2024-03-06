@@ -15,8 +15,8 @@ const Hero = () => {
                 <Row>
                     <Col>
                         <div className="hero__content">
-                            <h1 className="text--title">Imagen Pública</h1>
-                            <h2 className="text--slogan">Construyendo Puentes: Forjando una Imagen Pública Fuerte. Desde lo personal, político hasta lo corporativo, nuestra integridad es nuestra mejor imagen..</h2>
+                            <h1 className="text--title">#seamos justos</h1>
+                            <h2 className="text--slogan">Justo Tomás Hernández</h2>
                         </div>
                     </Col>
                 </Row>

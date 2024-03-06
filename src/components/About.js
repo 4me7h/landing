@@ -19,7 +19,7 @@ export default function About() {
           <Col>
             <div className="about__container">
               <div className="about__header">
-                <h3 className="text--subtitle">Corporativa</h3>
+                <h3 className="text--subtitle">Acerca de</h3>
               </div>
               <div className="about__lead">
                 <p className="text--lead">

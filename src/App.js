@@ -5,16 +5,28 @@ import About from './components/About';
 import Products from './components/Products';
 import Hero from './components/Hero';
 import Team from './components/Team';
-import Micro from './components/Micro';
+import Services from './components/Services';
+import Contact from './components/Contact';
+
+import { Element } from 'react-scroll';
 
 function App() {
   return (
     <div>
-      {/* <Header /> */}
-      <Hero />
-      <About />
-      <Products />
+      <Header />
+      <Element name="hero">
+        <Hero />
+      </Element>
+      <Element name="about">
+        <About />
+      </Element>
+      <Element name="services">
+        <Services />
+      </Element>
       <Team />
+      <Element name="contact">
+        <Contact />
+      </Element>
       <Footer />
     </div>
   );
