@@ -1,0 +1,32 @@
+.about {
+    &__header {
+        padding: 2rem 0;
+    }
+
+    &__images-grid {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2.5rem;
+        @include media('md') {
+            margin-bottom: 4rem;
+        }
+        img {
+            width: 33%;
+        }
+    }
+
+    &__lead {
+        margin-bottom: 2.5rem;
+        @include media('md') {
+            margin-bottom: 4rem;
+        }
+    }
+
+    &__content {
+        margin-bottom: 2.5rem;
+        @include media('md') {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+    }
+}
