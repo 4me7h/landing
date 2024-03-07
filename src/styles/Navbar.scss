@@ -46,6 +46,12 @@
         color: $color-white;
         letter-spacing: .2rem;
         font-weight: $fw-5;
+        @include link() {
+            color: $color-white;
+        } 
+        @include hover() {
+            color: darken($color-white, 15%);
+        }
     }
     &__nav {
         @include reset-list;  

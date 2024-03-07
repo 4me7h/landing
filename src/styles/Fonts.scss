@@ -16,6 +16,15 @@ a {
     color: $color-font;
 }
 
+a {
+    @include link {
+        color: $color-primary;
+    }
+    @include hover {
+        color: darken($color-primary, 10%)
+    }
+}
+
 span {
     &.lighted {
         background-color: $color-primary;
