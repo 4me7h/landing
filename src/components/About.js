@@ -3,6 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import Gridimg from './Gridimg';
+
 export default function About() {
   return (
     <section className="about">
@@ -21,13 +23,15 @@ export default function About() {
                   Proveniente de una familia comprometida con la justicia social, Justo ha trabajado incansablemente en proyectos locales para mejorar las condiciones de vida de sus conciudadanos. Su trayectoria profesional incluye roles destacados en organizaciones no gubernamentales, donde ha liderado iniciativas exitosas para promover la igualdad de oportunidades y la participación ciudadana.
                 </p>
               </div>
-              <div className="gallery">
+              {/* <div className="gallery">
                 <ul className="gallery__container">
                   <li className="gallery__item"></li>
                   <li className="gallery__item"></li>
                   <li className="gallery__item"></li>
                 </ul>
-              </div>
+              </div> */}
+
+              <Gridimg />
             </div>
           </Col>
         </Row>
