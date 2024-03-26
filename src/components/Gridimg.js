@@ -4,19 +4,7 @@ import Row from "react-bootstrap/esm/Row";
 
 import { Fade } from 'react-awesome-reveal';
 
-const imagePaths = [
-    require('../images/img-02.jpg'),
-    require('../images/img-20.jpg'),
-    require('../images/img-03.jpg'),
-    require('../images/img-04.jpg'),
-    require('../images/img-05.jpg'),
-    require('../images/img-07.jpg'),
-    require('../images/img-08.jpg'),
-    require('../images/img-09.jpg'),
-    require('../images/img-10.jpg'),
-];
-
-const Gridimg = () => {
+const Gridimg = ({imagePaths}) => {
 
     const images = imagePaths.map((path, index) => ({
         id: index +1,
@@ -31,9 +19,9 @@ const Gridimg = () => {
                     <Col>
                         <div className="gridimg__container">
                             <div className="gridimg__content">
-                                <Fade cascade>
+                                <Fade cascade triggerOnce>
                                 <ul className="gridimg__list">
-                                    {images.map((image) =>(
+                                    {images.map((image) => (
                                         <li key={image.id} className="gridimg__item">
                                             <img className="gridimg__img" src={image.src} alt={image.alt} />
                                         </li>

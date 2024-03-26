@@ -2,42 +2,8 @@
 
 $ff-p: 'Poppins', sans-serif;
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul li,
-a {
-    font-family: $ff-p;
-    color: $color-font;
-}
-
-a {
-    @include link {
-        color: $color-primary;
-    }
-    @include hover {
-        color: darken($color-primary, 10%)
-    }
-}
-
-span {
-    &.lighted {
-        background-color: $color-primary;
-        display: inline-block;
-        padding: 0 1rem;
-
-        &--secondary {
-            background-color: $color-secondary;
-        }
-    }
-}
-
 //sizes 
+$fs-xs: 16px;
 $fs-sm: 18px;
 $fs-md: 24px;
 $fs-lg: 32px;
@@ -50,7 +16,51 @@ $fw-4: 400;
 $fw-5: 500;
 $fw-6: 600;
 $fw-7: 700;
-$fw-8: 800;
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a {
+    font-family: $ff-p;
+    color: $color-font;
+}
+
+a {
+    @include link {
+        color: $color-primary;
+    }
+    @include hover {
+        color: darken($color-primary, 10%)
+    }
+
+    &.link-white {
+        @include link {
+            color: $color-white;
+        }
+        @include hover {
+            color: darken($color-white, 10%)
+        }
+    }
+}
+
+span {
+    &.lighted {
+        background-color: $color-primary;
+        display: inline-block;
+        padding: 0 0.75rem;
+        color: $color-white;
+
+        &--secondary {
+            background-color: $color-secondary;
+        }
+    }
+}
 
 //text
 .text {
@@ -96,6 +106,9 @@ $fw-8: 800;
         @include media('xl') {
             font-size: $fs-bg;
         }
+        &--white {
+            color: $color-white;
+        }
     }
 
     &--lead {
@@ -114,5 +127,12 @@ $fw-8: 800;
         @include media('md') {
             font-size: $fs-md;
         }
+        &--white {
+            color: $color-white;
+        }
+    }
+    
+    &--small {
+        font-size: $fs-xs;
     }
 }

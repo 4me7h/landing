@@ -1,33 +1,27 @@
 .about {
     &__header {
-        padding: 3rem 0 1rem;
+        background-color: $color-primary;
+        padding: 3rem 0 2rem;
+        text-align: center;
+        &__content {
+            margin-bottom: 2rem;
+        }
+        @include media('md') {
+            text-align: left;
+        }
     }
 
-    // &__images-grid {
-    //     display: flex;
-    //     justify-content: space-between;
-    //     margin-bottom: 2.5rem;
-    //     @include media('md') {
-    //         margin-bottom: 4rem;
-    //     }
-    //     img {
-    //         width: 33%;
-    //     }
-    // }
-
-    // &__lead {
-    //     margin-bottom: 2.5rem;
-    //     @include media('md') {
-    //         margin-bottom: 4rem;
-    //     }
-    // }
-
     &__content {
-        max-width: 700px;
-        margin: 0 auto 2.5rem;
+        
+        margin: 0 auto 1rem;
         @include media('md') {
-            text-align: center;
-            margin-bottom: 4rem;
+            margin-bottom: 1.5rem;
+        }
+        &__left {
+            text-align: left;
+        }
+        &__right {
+            text-align: right;
         }
     }
 }
