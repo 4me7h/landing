@@ -20,7 +20,7 @@ const Hero = () => {
                             <div className='hero__content__header'>
                                 <Fade triggerOnce direction='right' cascade>
                                     <h1 className="text--title"><span className='lighted lighted--secondary'>#</span><span className='lighted'>seamosjustos</span></h1>
-                                    <h2 className="text--subtitle">Podemos <span className='lighted'>Mover a Chiapas</span></h2>
+                                    <h2 className="text--subtitle">Podemos Mover a Chiapas</h2>
                                     <h3 className='text--slogan'><span className='lighted'>Lic. Justo Tomás </span><span className='lighted lighted--secondary'>Hernández</span></h3>
                                 </Fade>
                             </div>
