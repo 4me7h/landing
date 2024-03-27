@@ -1,19 +1,31 @@
 .cards {
     background-color: $color-secondary;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    
     &__img {
-        margin-bottom: 1rem;
+        width: 30%;
+        height: 300px;
     }
 
     &__content {
-        padding: .5rem 1rem 1.5rem;
+        padding: 0;
+        width: 70%;
     }
 
     &__title {
         display: block;
+        padding: 0.5rem 1rem;
         margin-bottom: .5rem;
+        background-color: $color-primary;
+        color: $color-white;
     }
 
     &__description {
         display: block;
+        padding: 0.5rem 1rem;
+        color: $color-white;
     }
 }

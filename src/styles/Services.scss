@@ -1,6 +1,8 @@
 .services {
     &__header {
         padding: 2rem 0;
+        background-color: $color-primary;
+        margin-bottom: 2rem;
     }
     &__list {
         @include reset-list;
@@ -14,7 +16,11 @@
         width: 100%;
         margin-bottom: 2rem;
         @include media ('xl') {
-            width: 33%;
+            width: 100%;
         }
+    }
+    &__footer {
+        background-color: $color-primary;
+        padding: 1rem;
     }
 }

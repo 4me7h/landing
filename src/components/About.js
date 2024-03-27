@@ -38,7 +38,7 @@ export default function About() {
             <Col>
               <Fade cascade triggerOnce direction="left">
                 <div className='about__header__content'>
-                  <h3 className="text--subtitle text--subtitle--white text-center">Biografía</h3>
+                  <h3 className="text--subtitle text--subtitle--white text-center">BIOGRAFÍA</h3>
                 </div>  
                 <div className="about__content">
                   <p className='about__paragraph text--body text--body--white'>
@@ -62,10 +62,10 @@ export default function About() {
               <Fade cascade triggerOnce direction="left">
               <div className="about__content">
                 <p className='about__paragraph text--body'>
-                  Proveniente de una familia comprometida con la <span className='lighted'>justicia social,</span> Justo ha trabajado incansablemente en proyectos locales para mejorar las condiciones de vida de sus conciudadanos. 
+                  Proveniente de una familia comprometida con la <span className='lighted lighted--secondary'>justicia social,</span> Justo ha trabajado incansablemente en proyectos locales para mejorar las condiciones de vida de sus conciudadanos. 
                 </p>
                 <p className='about__paragraph text--body'>
-                  Su trayectoria profesional incluye roles destacados en organizaciones no gubernamentales, donde ha liderado iniciativas exitosas para promover la <span className="lighted">igualdad de oportunidades</span> y la participación ciudadana.
+                  Su trayectoria profesional incluye roles destacados en organizaciones no gubernamentales, donde ha liderado iniciativas exitosas para promover la <span className="lighted lighted--secondary">igualdad de oportunidades</span> y la participación ciudadana.
                 </p>
               </div>
               </Fade>
@@ -85,10 +85,10 @@ export default function About() {
               <Fade cascade triggerOnce direction="left">
               <div className="about__content">
                 <p className='about__paragraph text--body'>
-                  Como defensor de los derechos humanos y la inclusión, Justo se ha destacado en la lucha por la equidad de género y el respeto a la <span className="lighted">diversidad cultural en Chiapas</span>. 
+                  Como defensor de los derechos humanos y la inclusión, Justo se ha destacado en la lucha por la equidad de género y el respeto a la <span className="lighted lighted--secondary">diversidad cultural en Chiapas</span>. 
                 </p>
                 <p className='about__paragraph text--body'>
-                  Su visión de un estado más justo y próspero lo impulsa a postularse para la presidencia, donde busca implementar <span className="lighted">políticas inclusivas</span> que beneficien a todos los habitantes de la región.
+                  Su visión de un estado más justo y próspero lo impulsa a postularse para la presidencia, donde busca implementar <span className="lighted lighted--secondary">políticas inclusivas</span> que beneficien a todos los habitantes de la región.
                 </p>
               </div>
               </Fade>

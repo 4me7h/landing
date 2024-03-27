@@ -4,8 +4,11 @@ import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import imgBackground from '../images/img-07.jpg';
 
-const Banner = () => {
+import { useParallax } from 'react-scroll-parallax';
+
+const Banner = ({title, subtitle}) => {
     const backgroundImage = `url(${imgBackground})`;
+    const { ref } = useParallax({ speed: 10 });
 
     return (
         
@@ -14,9 +17,9 @@ const Banner = () => {
             <Container>
                 <Row>
                     <Col>
-                        <div className="banner__content">
-                            <h1 className="text--title">Vepo</h1>
-                            <h2 className="text--slogan">Cultivando sustentabilidad, cosechando bienestar, donde tú eres nuestra prioridad.</h2>
+                        <div ref={ref} className="banner__content">
+                            <h1 className="text--title">{title}</h1>
+                            <h2 className="text--slogan">{subtitle}</h2>
                         </div>
                     </Col>
                 </Row>
