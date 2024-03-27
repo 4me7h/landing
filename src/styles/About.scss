@@ -2,7 +2,8 @@
     margin-bottom: 2rem;
     &__header {
         background-color: $color-primary;
-        padding: 3rem 0 2rem;
+        color: $color-white;
+        padding: 3rem 0;
         margin-bottom: 1rem;
         text-align: center;
         &__content {
@@ -14,7 +15,6 @@
     }
 
     &__content {
-        
         margin: 0 auto 1rem;
         @include media('md') {
             margin-bottom: 1.5rem;

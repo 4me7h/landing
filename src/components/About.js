@@ -38,7 +38,7 @@ export default function About() {
             <Col>
               <Fade cascade triggerOnce direction="left">
                 <div className='about__header__content'>
-                  <h3 className="text--subtitle text--subtitle--white text-center">BIOGRAFÍA</h3>
+                  <h3 className="text--subtitle text-center">BIOGRAFÍA</h3>
                 </div>  
                 <div className="about__content">
                   <p className='about__paragraph text--body text--body--white'>
