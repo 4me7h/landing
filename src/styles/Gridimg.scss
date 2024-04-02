@@ -13,6 +13,7 @@
         padding-top: calc(49.5%); /* Para hacer las imágenes cuadradas */
         overflow: hidden;
         margin-bottom: 1%;
+        border-radius: 15px;
         @include media('md') {
             flex: 0 0 calc(24.5%); /* Tamaño de las imágenes (33.33% con espacio entre ellas) */
             position: relative;
