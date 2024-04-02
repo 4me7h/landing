@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Hero from './components/Hero';
 import Services from './components/Services';
-// import Team from './components/Team';
+import Team from './components/Team';
 import Contact from './components/Contact';
 
 import { Element } from 'react-scroll';
@@ -24,10 +24,9 @@ function App() {
       <Element name="services">
         <Services />
       </Element>
-      {/*
       <Element name="team">
         <Team />
-      </Element> */}
+      </Element>
       <Element name="contact">
         <Contact />
       </Element>

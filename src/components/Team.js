@@ -2,6 +2,9 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import CardTeam from './CardTeam';
+
+import image01 from '../images/img-21.jpg';
 
 const Team = () => {
     return(
@@ -11,16 +14,61 @@ const Team = () => {
                     <Col>
                         <div className="team__container">
                             <div className="team__header">
-                                <h2 className="text--subtitle">Equipo</h2>
+                                <div className='team__header__content'>
+                                    <h3 className="text--subtitle">Conoce a Nuestro Equipo</h3>
+                                </div>  
+                                <div className="team__content">
+                                    <p className="text--lead">
+                                        Unidos por nuestra comunidad, guiados por nuestro compromiso.
+                                    </p>    
+                                </div>
+                                <div className='team__conent'>
+                                    <p className='text--small'>
+                                        Queremos presentarte a las personas detrás de nuestra visión. Cada miembro de nuestro equipo está comprometido con el bienestar de nuestra comunidad y dedicado a trabajar incansablemente para lograr un Chiapas más próspero y equitativo. Descubre a quienes lideran el cambio y se comprometen con la excelencia en cada paso del camino.
+                                    </p>
+                                </div>
+                                
                             </div>
                             <div className="team__content">
-                                <p className="text--body">
-                                    ¿Tienes preguntas o deseas obtener más información sobre nuestros servicios? Estamos aquí para ayudarte. Completa el formulario a continuación, y nos pondremos en contacto contigo lo antes posible.
-                                </p>
-                                <p className="text--body">
-                                    Gracias por considerar [Nombre de tu Empresa/Evento] para tu próximo evento especial. ¡Esperamos trabajar contigo para crear recuerdos que perduren toda la vida!
-                                </p>                          
+                                                    
                             </div>
+                            <ul className='team__list'>
+                                <li className='team__list__item'>
+                                    <CardTeam 
+                                        image = {image01}
+                                        name = "Lic. Justo Tomás Hernández"
+                                        description = "Presidente"
+                                    />
+                                </li>
+                                <li className='team__list__item'>
+                                    <CardTeam 
+                                        image = {image01}
+                                        name = "Lic. Justo Tomás Hernández"
+                                        description = "Presidente"
+                                    />
+                                </li>
+                                <li className='team__list__item'>
+                                    <CardTeam 
+                                        image = {image01}
+                                        name = "Lic. Justo Tomás Hernández"
+                                        description = "Presidente"
+                                    />
+                                </li>
+                                <li className='team__list__item'>
+                                    <CardTeam 
+                                        image = {image01}
+                                        name = "Lic. Justo Tomás Hernández"
+                                        description = "Presidente"
+                                    />
+                                </li>
+                                <li className='team__list__item'>
+                                    <CardTeam 
+                                        image = {image01}
+                                        name = "Lic. Justo Tomás Hernández"
+                                        description = "Presidente"
+                                    />
+                                </li>
+                            </ul>
                         </div>
                     </Col>
                 </Row>

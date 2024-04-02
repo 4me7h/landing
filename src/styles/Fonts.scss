@@ -114,18 +114,16 @@ span {
     &--lead {
         font-size: $fs-md;
         letter-spacing: .05rem;
-        @include media('xs') {
-            font-size: $fs-md;
-        }
+
         @include media('md') {
-            font-size: $fs-lg;
+            font-size: $fs-md;
         }
     }
 
     &--body {
         font-size: $fs-sm;
         @include media('md') {
-            font-size: $fs-md;
+            font-size: $fs-sm;
         }
         &--white {
             color: $color-white;
