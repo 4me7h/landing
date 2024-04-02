@@ -14,9 +14,9 @@
         overflow: hidden;
         margin-bottom: 1%;
         @include media('md') {
-            flex: 0 0 calc(33%); /* Tamaño de las imágenes (33.33% con espacio entre ellas) */
+            flex: 0 0 calc(24.5%); /* Tamaño de las imágenes (33.33% con espacio entre ellas) */
             position: relative;
-            padding-top: calc(33%); /* Para hacer las imágenes cuadradas */
+            padding-top: calc(24.5%); /* Para hacer las imágenes cuadradas */
         }
     }
 
