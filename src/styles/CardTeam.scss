@@ -1,6 +1,7 @@
 .cardteam {
     background-color: red;
     position: relative;
+    height: 200px;
     &__content {
         background-color: $color-white;
         position: absolute;

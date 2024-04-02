@@ -6,6 +6,8 @@ import CardTeam from './CardTeam';
 
 import image01 from '../images/img-21.jpg';
 
+import { Fade } from 'react-awesome-reveal';
+
 const Team = () => {
     return(
         <div className="team">
@@ -14,23 +16,21 @@ const Team = () => {
                     <Col>
                         <div className="team__container">
                             <div className="team__header">
+                                <Fade cascade triggerOne direction="up"> 
                                 <div className='team__header__content'>
                                     <h3 className="text--subtitle">Conoce a Nuestro Equipo</h3>
                                 </div>  
                                 <div className="team__content">
-                                    <p className="text--lead">
+                                    <p className="text--lead text-uppercase">
                                         Unidos por nuestra comunidad, guiados por nuestro compromiso.
                                     </p>    
                                 </div>
-                                <div className='team__conent'>
+                                <div className='team__content'>
                                     <p className='text--small'>
                                         Queremos presentarte a las personas detrás de nuestra visión. Cada miembro de nuestro equipo está comprometido con el bienestar de nuestra comunidad y dedicado a trabajar incansablemente para lograr un Chiapas más próspero y equitativo. Descubre a quienes lideran el cambio y se comprometen con la excelencia en cada paso del camino.
                                     </p>
                                 </div>
-                                
-                            </div>
-                            <div className="team__content">
-                                                    
+                                </Fade>
                             </div>
                             <ul className='team__list'>
                                 <li className='team__list__item'>
