@@ -19,10 +19,11 @@ const Team = () => {
                                 <Fade cascade triggerOne direction="up"> 
                                 <div className='team__header__content'>
                                     <h3 className="text--subtitle">Conoce a Nuestro Equipo</h3>
+                                    <hr className='hr--basic'/>
                                 </div>  
                                 <div className="team__content">
                                     <p className="text--lead text-uppercase">
-                                        Unidos por nuestra comunidad, guiados por nuestro compromiso.
+                                        Unidos por nuestra comunidad,<br />guiados por nuestro compromiso.
                                     </p>    
                                 </div>
                                 <div className='team__content'>

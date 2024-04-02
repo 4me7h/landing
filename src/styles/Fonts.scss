@@ -134,3 +134,12 @@ span {
         font-size: $fs-xs;
     }
 }
+
+.hr {
+    &--basic {
+        width: 20%; 
+        border: none;
+        border-bottom: 5px solid $color-primary;
+        margin: 0 auto;
+    }
+}
