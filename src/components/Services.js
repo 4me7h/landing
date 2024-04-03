@@ -9,8 +9,8 @@ import Banner from './Banner';
 import imgBanner from '../images/img-07.jpg';
 import image01 from '../images/img-21.jpg';
 import image02 from '../images/img-22.jpg';
-import image03 from '../images/img-23.jpg';
-import image04 from '../images/img-24.jpg';
+import image03 from '../images/img-24.jpg';
+import image04 from '../images/img-23.jpg';
 import image05 from '../images/img-25.jpg';
 
 import { Fade } from 'react-awesome-reveal';
