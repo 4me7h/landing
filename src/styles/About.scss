@@ -4,10 +4,9 @@
         background-color: $color-primary;
         color: $color-white;
         padding: 3rem 0;
-        margin-bottom: 1rem;
         text-align: center;
         &__content {
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
         }
         @include media('md') {
             text-align: left;

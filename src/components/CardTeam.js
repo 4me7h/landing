@@ -4,14 +4,14 @@ const CardTeam = ({image, name, description}) => {
     return(
         <div className="cardteam">
             <div className="cardteam__img image--background" style={{backgroundImage: `url(${image})`}}>
-                <div className="cardteam__content">
-                    <span className="cardteam__title">
+                <span className="cardteam__content">
+                    <span className="cardteam__title text--small">
                         {name}
                     </span>
-                    <span class="cardteam__description">
+                    <span class="cardteam__description text--small">
                         {description}
                     </span>
-                </div>
+                </span>
             </div>
         </div>       
     )

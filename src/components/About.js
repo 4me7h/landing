@@ -57,6 +57,9 @@ export default function About() {
           </Row>
         </Container>
       </div>
+      <div className='polygon'>
+        <div className='polygon__bottom--right'></div>
+      </div>
       <section className='about__gallery'>
         <Gridimg 
           imagePaths = {imagePaths01}

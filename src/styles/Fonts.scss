@@ -109,6 +109,9 @@ span {
         &--white {
             color: $color-white;
         }
+        &--primary {
+            color: $color-primary;
+        } 
     }
 
     &--lead {
@@ -137,9 +140,8 @@ span {
 
 .hr {
     &--basic {
-        width: 20%; 
-        border: none;
-        border-bottom: 5px solid $color-primary;
+        width: 30%; 
+        border-top: 5px solid $color-black;
         margin: 0 auto;
     }
 }
