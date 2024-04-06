@@ -69,7 +69,7 @@ export default function Services() {
                 </Fade>
               </div>
               <div className='services__footer'>
-                <p className='text--body text--body--white'>
+                <p className='text--body'>
                   Chiapas, nuestro potencial es ilimitado cuando trabajamos juntos. ¡Únete a nosotros en este viaje hacia un futuro más brillante para nuestra tierra y vota por Justo Tomás Hernández como tu próximo líder!
                 </p>
               </div>
