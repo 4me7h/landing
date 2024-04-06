@@ -117,7 +117,7 @@ span {
     &--lead {
         font-size: $fs-md;
         letter-spacing: .05rem;
-
+        font-weight: $fw-5;
         @include media('md') {
             font-size: $fs-md;
         }
@@ -132,7 +132,7 @@ span {
             color: $color-white;
         }
     }
-    
+
     &--small {
         font-size: $fs-xs;
     }

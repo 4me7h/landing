@@ -6,6 +6,8 @@ import Col from 'react-bootstrap/Col';
 import { Fade } from 'react-awesome-reveal';
 import CardContact from './CardContact';
 
+import { FaLocationDot, FaPhone, FaEnvelope  } from 'react-icons/fa6';
+
 const Contact = () => {
     return(
         <section className='contact'>
@@ -27,9 +29,27 @@ const Contact = () => {
                                 </Fade>
                             </div>
                         </div>
-                        <ul className='contactlist'>
-                            <li className='contactlist__item'>
-                                <CardContact />
+                        <ul className='contact__list'>
+                            <li className='contact__list__item'>
+                                <CardContact 
+                                    title = "Dirección" 
+                                    description = {["13 Poniente #345", <br/>, "Col. Xamaipac 23094", <br/>, "Tuxtla Gutiérrez, Chiapas"]}
+                                    icon = {<FaLocationDot style={{color: '#742584', fontSize: '55px'}}/>}
+                                />                                  
+                            </li>
+                            <li className='contact__list__item'>
+                                <CardContact 
+                                    title = "Teléfono"
+                                    description = {["961 3020 343", <br/>, "961 4576 897"]}
+                                    icon = {<FaPhone style={{color: '#742584', fontSize: '55px'}}/>}
+                                />
+                            </li>
+                            <li className='contact__list__item'>
+                                <CardContact 
+                                    title = "E-mail"
+                                    description = {["elcorreovaaqui@gmail.com", <br />, "otrocorreo@gmail.com"]}
+                                    icon = {<FaEnvelope style={{color: '#742584', fontSize: '55px'}}/>}
+                                />
                             </li>
                         </ul>
                     </Col>
