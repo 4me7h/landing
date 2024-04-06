@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import { Fade } from 'react-awesome-reveal';
+import CardContact from './CardContact';
 
 const Contact = () => {
     return(
@@ -23,14 +24,14 @@ const Contact = () => {
                                         Ponte en contacto y déjanos saber como podemos ayudarte
                                     </p>    
                                 </div>
-                                <div className='headercontent__content'>
-                                    <p className='text--small'>
-                                        Queremos presentarte a las personas detrás de nuestra visión.
-                                    </p>
-                                </div>
                                 </Fade>
                             </div>
                         </div>
+                        <ul className='contactlist'>
+                            <li className='contactlist__item'>
+                                <CardContact />
+                            </li>
+                        </ul>
                     </Col>
                 </Row>
             </Container>
