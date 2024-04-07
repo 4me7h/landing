@@ -1,7 +1,8 @@
 .contact {
-    padding: 4rem 0 4rem;
+    padding: 0rem 0 4rem;
     &__list {
         @include reset-list;
+        margin-top: 4rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

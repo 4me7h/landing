@@ -9,8 +9,10 @@ import image02 from '../images/team-02.jpg';
 import image03 from '../images/team-03.jpg';
 import image04 from '../images/team-04.jpg';
 import image05 from '../images/team-05.jpg';
+import image06 from '../images/team-06.jpg';
 import image07 from '../images/team-07.jpg';
 import image08 from '../images/team-08.jpg';
+import image09 from '../images/team-09.jpg';
 
 import { Fade } from 'react-awesome-reveal';
 
@@ -18,7 +20,7 @@ const Team = () => {
     return(
         <div className="team">
             <div className='polygon'>
-                <div className='polygon__top--right'></div>
+                <div className='polygon__top--left--gray'></div>
             </div>
             <Container>
                 <Row>
@@ -83,7 +85,7 @@ const Team = () => {
                                 </li>
                                 <li className='team__list__item'>
                                     <CardTeam 
-                                        image = {image01}
+                                        image = {image06}
                                         name = "José Maria Juárez Llaven"
                                         description = "Administración y Finanzas"
                                     />
@@ -104,7 +106,7 @@ const Team = () => {
                                 </li>
                                 <li className='team__list__item'>
                                     <CardTeam 
-                                        image = {image01}
+                                        image = {image09}
                                         name = "Paul André Solís Zúñiga"
                                         description = "Coordinador de Información y Transparencia"
                                     />

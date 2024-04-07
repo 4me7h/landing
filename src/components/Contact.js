@@ -11,6 +11,9 @@ import { FaLocationDot, FaPhone, FaEnvelope  } from 'react-icons/fa6';
 const Contact = () => {
     return(
         <section className='contact'>
+            <div className='polygon'>
+                <div className='polygon__top--left--white'></div>
+            </div>
             <Container>
                 <Row>
                     <Col>
@@ -34,21 +37,21 @@ const Contact = () => {
                                 <CardContact 
                                     title = "Dirección" 
                                     description = {["13 Poniente #345", <br/>, "Col. Xamaipac 23094", <br/>, "Tuxtla Gutiérrez, Chiapas"]}
-                                    icon = {<FaLocationDot style={{color: '#742584', fontSize: '55px'}}/>}
+                                    icon = {<FaLocationDot style={{color: '#742584', fontSize: '50px'}}/>}
                                 />                                  
                             </li>
                             <li className='contact__list__item'>
                                 <CardContact 
                                     title = "Teléfono"
                                     description = {["961 3020 343", <br/>, "961 4576 897"]}
-                                    icon = {<FaPhone style={{color: '#742584', fontSize: '55px'}}/>}
+                                    icon = {<FaPhone style={{color: '#742584', fontSize: '50px'}}/>}
                                 />
                             </li>
                             <li className='contact__list__item'>
                                 <CardContact 
                                     title = "E-mail"
                                     description = {["elcorreovaaqui@gmail.com", <br />, "otrocorreo@gmail.com"]}
-                                    icon = {<FaEnvelope style={{color: '#742584', fontSize: '55px'}}/>}
+                                    icon = {<FaEnvelope style={{color: '#742584', fontSize: '50px'}}/>}
                                 />
                             </li>
                         </ul>
