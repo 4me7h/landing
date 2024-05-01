@@ -19,9 +19,9 @@ const Hero = () => {
                         <div ref={ref} className="hero__content">
                             <div className='hero__content__header'>
                                 <Fade triggerOnce direction='right' cascade>
-                                    <h1 className="text--title"><span className='lighted lighted--secondary'>#</span><span className='lighted'>seamosjustos</span></h1>
-                                    <h2 className="text--subtitle d-none d-md-block">Podemos Mover a Chiapas</h2>
-                                    <h3 className='text--slogan'><span className='lighted'>Lic. Justo Tomás </span><span className='lighted lighted--secondary d-none d-md-inline-block'>Hernández</span></h3>
+                                    <h1 className="text--title">Landing Pages</h1>
+                                    <h2 className="text--subtitle d-none d-md-block">Bienvenido a la solución definitiva para tus necesidades de marketing digital.</h2>
+                                    {/* <h3 className='text--slogan'><span className='lighted'>En nuestra plataforma, te ofrecemos las herramientas y la experiencia necesarias para desarrollar landing pages efectivas que</span><span className='lighted lighted--secondary d-none d-md-inline-block'>impulsen tus ventas y potencien el crecimiento de tu negocio.</span></h3> */}
                                 </Fade>
                             </div>
                         </div>
