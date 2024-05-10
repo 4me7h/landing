@@ -19,9 +19,11 @@ const Hero = () => {
                         <div ref={ref} className="hero__content">
                             <div className='hero__content__header'>
                                 <Fade triggerOnce direction='right' cascade>
-                                    <h1 className="text--title">Landing Pages</h1>
-                                    <h2 className="text--subtitle d-none d-md-block">Bienvenido a la solución definitiva para tus necesidades de marketing digital.</h2>
-                                    {/* <h3 className='text--slogan'><span className='lighted'>En nuestra plataforma, te ofrecemos las herramientas y la experiencia necesarias para desarrollar landing pages efectivas que</span><span className='lighted lighted--secondary d-none d-md-inline-block'>impulsen tus ventas y potencien el crecimiento de tu negocio.</span></h3> */}
+                                    <p className='text--small text--white'>CLDEV desde 2010</p>
+                                    <h1 className="text--title text--tertiary">Landing Pages</h1>
+                                    <h2 className="text--subtitle">Bienvenido a la solución definitiva para tus necesidades de <span className='text--tertiary'>marketing digital</span></h2>
+                                    <p className='text--body text--white'>En nuestra plataforma, te ofrecemos las herramientas y la experiencia necesarias para desarrollar landing pages efectivas que impulsen tus ventas y potencien el crecimiento de tu negocio.</p>
+                                    <a className="btn btn--primary" href="http;//linux.com">Cotiza tu Landing Page</a>
                                 </Fade>
                             </div>
                         </div>

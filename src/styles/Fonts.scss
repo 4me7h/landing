@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
 
-$ff-p: 'Poppins', sans-serif;
+$ff-p: 'Ubuntu Sans', sans-serif;
 
 //sizes 
 $fs-xs: 16px;
@@ -12,6 +12,7 @@ $fs-bg: 48px;
 $fs-xb: 56px;
 
 //weights
+$fw-3: 300;
 $fw-4: 400;
 $fw-5: 500;
 $fw-6: 600;
@@ -80,20 +81,19 @@ span {
 
     &--slogan {
         font-size: $fs-sm;
-        letter-spacing: .20rem;
+        letter-spacing: .02rem;
         line-height: 1.3;
         font-weight: $fw-5;
         @include media ('xs') {
             font-size: $fs-md;
         }
         @include media('md') {
-            font-size: $fs-lg;
+            font-size: $fs-md;
         }
     }
 
     &--subtitle {
         font-size: $fs-lg;
-        letter-spacing: .20rem;
         line-height: 1.3;
         font-weight: $fw-5;
         margin-bottom: 1rem;
@@ -104,20 +104,16 @@ span {
             font-size: $fs-xl;
         }  
         @include media('xl') {
-            font-size: $fs-bg;
+            font-size: $fs-xl;
         }
-        &--white {
-            color: $color-white;
-        }
-        &--primary {
-            color: $color-primary;
-        } 
     }
 
     &--lead {
         font-size: $fs-md;
-        letter-spacing: .05rem;
+        letter-spacing: .02rem;
+        line-height: 1.6;
         font-weight: $fw-5;
+        margin-bottom: 1rem;
         @include media('md') {
             font-size: $fs-md;
         }
@@ -125,17 +121,35 @@ span {
 
     &--body {
         font-size: $fs-sm;
+        margin-bottom: 1rem;
+        letter-spacing: 0.02rem;
+        line-height: 1.6;
         @include media('md') {
             font-size: $fs-sm;
-        }
-        &--white {
-            color: $color-white;
         }
     }
 
     &--small {
         font-size: $fs-xs;
+        font-weight: $fw-4;
+        letter-spacing: 0.1rem;
     }
+
+    &--white {
+        color: $color-white;
+    }
+
+    &--tertiary {
+        color: $color-tertiary;
+    }
+
+    &--secondary {
+        color: $color-secondary;
+    }
+
+    &--primary {
+        color: $color-primary;
+    } 
 }
 
 .hr {

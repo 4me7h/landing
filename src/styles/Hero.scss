@@ -23,12 +23,9 @@
         }
         &__header {
             position: relative;   
-            text-align: center;
-            padding: 6rem 0 8rem;
+            text-align: left;
+            padding: 8rem 0;
             max-width: 700px;
-            @include media('md') {
-                margin: 0 auto;
-            }
         }
     }
 }

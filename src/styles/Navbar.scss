@@ -70,7 +70,6 @@
             margin-top: 0;
         }
         &__item {
-            margin-right: 1rem;
             margin-bottom: 0.5rem;
             &:last-child {
                 margin-right: 0;
@@ -80,6 +79,7 @@
             } 
             a {
                 @include link {
+                    font-size: 1rem;
                     color: $color-white;
                     text-decoration: none;
                     text-transform: uppercase;
