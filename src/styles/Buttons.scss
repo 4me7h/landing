@@ -1,5 +1,5 @@
 .btn {
-    &--primary {
+    &--tertiary {
         @include link {
             color: $color-black;
             background-color: $color-tertiary;
@@ -8,7 +8,7 @@
             font-weight: $fw-5;
         }
         @include hover {
-            color: $color-white;
+            color: $color-black !important;
             background-color: darken($color-tertiary, 10%) !important;
         }
     }
