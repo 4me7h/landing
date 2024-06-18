@@ -3,10 +3,11 @@
     &__header {
         background-color: $color-primary;
         color: $color-white;
-        padding: 3rem 0;
+        padding: 2rem 0;
         text-align: center;
         &__content {
-            margin-bottom: 1rem;
+            max-width: 850px;
+            margin: 0 auto;
         }
         @include media('md') {
             text-align: left;

@@ -21,7 +21,7 @@ const Hero = () => {
                                 <Fade triggerOnce direction='right' cascade>
                                     <p className='text--small text--white'>CLDEV desde 2010</p>
                                     <h1 className="text--title text--tertiary">Landing Pages</h1>
-                                    <h2 className="text--subtitle">Bienvenido a la solución definitiva para tus necesidades de <span className='text--tertiary'>marketing digital</span></h2>
+                                    <h2 className="text--subtitle">Bienvenido a la solución definitiva para tus necesidades de <span className='text--tertiary'>marketing digital.</span></h2>
                                     <p className='text--body text--white'>En nuestra plataforma, te ofrecemos las herramientas y la experiencia necesarias para desarrollar landing pages efectivas que impulsen tus ventas y potencien el crecimiento de tu negocio.</p>
                                     <a className="btn btn--tertiary" href="http;//linux.com">Cotiza tu Landing Page</a>
                                 </Fade>
